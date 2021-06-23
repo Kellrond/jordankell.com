@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    
+<div class="row">
+        
+    <div class="col-8">
+        <div id="orange"><h2>Home</h2></div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At obcaecati quisquam quia dolorum omnis, 
+            quas maiores, minima impedit, libero ex voluptate. Nobis expedita ratione odit provident laboriosam 
+            in impedit doloremque. Minus totam consequuntur quibusdam esse corporis rerum, consectetur libero 
+            odio, veniam, reiciendis dicta adipisci commodi! Eveniet enim neque ducimus esse laborum repudiandae,
+             hic tempora in eius quod dolores numquam nam eaque ut deleniti assumenda id, voluptatum tenetur minus
+              perspiciatis quam? Iusto possimus officiis laboriosam inventore, maxime itaque. Quod dolores et autem
+               quas? Sapiente corrupti atque amet iusto dignissimos explicabo, et, voluptas incidunt sequi, rem 
+               deserunt ut fugiat hic minus aliquid.
+        </p>
+    </div>
+    <div class="col-4">
+        {% if login %}
+        <p>Logged in</p>
+        {% else %}
+        <p>NOT Logged in</p>
+        {% endif %}
+    </div>
+</div>
+
+
+{% endblock %}
+
+
+
+
+
+
+    

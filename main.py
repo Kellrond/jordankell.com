@@ -1,0 +1,1 @@
+from app import app as application   #app variable inside __init__.py in app folder

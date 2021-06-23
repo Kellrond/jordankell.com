@@ -1,0 +1,140 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+
+
+/* Variables */
+
+:root {
+  --rich_orange: #FA7921;
+  --orange: #FE9920;
+  --gold: #B9A44C;
+  --olive: #566E3D;
+  --indigo: #0C4767;
+}
+
+/* Static elements */
+
+header {
+    display: block;
+    margin: auto;
+    min-height: 50px;
+    max-width: 1000px; 
+    text-align: right; 
+}
+
+body {
+    font-family: 'Dosis', Helvetica, sans-serif;
+    font-weight: 700;
+    height: 100%;
+    position: relative;
+    margin:0px;
+}
+
+footer {
+    display: table;
+    width: 100%;
+    margin: auto;
+    min-height: 120px;
+    max-width: 1000px;
+    background-color: var(--indigo);
+    color:#FFF;
+}
+
+
+/* Primary elements */
+
+div {
+    display: block;
+    max-width: 1000px;
+}
+
+li {
+    display: inline;
+    /* padding: 5px; */
+}
+
+hr {
+    width: 100%;
+    height:4px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--indigo);
+    border: 0 none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--indigo);
+}
+
+a:hover { color : var(--gold);}
+
+
+.jk-title{
+    font-size: 34px;
+    font-weight: 400;
+    color: #0000008C;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: right;
+    padding-top: 10px;
+    text-shadow: 2px 1px 2px #b1b1b1;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.body-container {
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+}
+
+
+.content {
+    display: block;
+    margin: auto;
+    max-width: 1000px;
+}
+
+.footer-block {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+#orange {
+    
+    display: block;
+    margin: auto;
+    min-height: 50px;
+    max-width: 1000px;
+    background-color: var(--orange);
+    padding-left: 2rem;
+}
+
+#gold {
+    
+    display: block;
+    margin: auto;
+    padding-top: 0px;
+    min-height: 120px;
+    max-width: 1000px;
+    background-color: var(--gold);
+}
+#olive {
+    
+    display: block;
+    margin: auto;
+    padding-top: 0px;
+    min-height: 120px;
+    max-width: 1000px;
+    background-color: var(--olive);
+}

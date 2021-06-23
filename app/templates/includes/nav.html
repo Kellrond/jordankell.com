@@ -1,0 +1,54 @@
+<header class="header">
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-2">
+                    <a class="navbar-brand" href="{{ url_for('index')}}"><img src="static/images/logo_square_transparent.png"></a>
+                </div>
+                
+                <div class="col-10">
+                    <div class="row">
+                        <div class="col">
+                            
+                                <p class="d-block d-sm-none jk-title" style="font-size: 24px;">Jordan Kell</p>
+                                <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                                    
+                                    <ul class="navbar-nav me-md-auto mb-1 mb-sm-0">
+                                        <li class="nav-item"><a href="{{ url_for('index')}}" class="nav-link {% if index %}active{% endif %}">Home</a></li>
+                                        <li class="nav-item"><a href="{{ url_for('about')}}" class="nav-link {% if about %}active{% endif %}">About</a></li>
+                                        <li class="nav-item"><a href="{{ url_for('projects')}}" class="nav-link {% if projects %}active{% endif %}">Projects</a></li>
+                                        <li class="nav-item"><a href="{{ url_for('contact')}}" class="nav-link {% if contact %}active{% endif %}">Contact</a></li>
+                                    </ul>     
+                                    <ul class="navbar-nav ms-auto mb-1 mb-sm-0 jk-title d-none d-sm-block "><p>Jordan Kell</p></ul>  
+                                </div>
+                                <div class="ms-auto">
+                                <button class="navbar-toggler float-end" type="button" data-bs-toggle="collapse" 
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                    Menu
+                                </button>
+                                </div>
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 d-none d-sm-block">
+                            
+
+                            <img src="static/images/colour_bar.png" style="width: 100%; box-shadow: 0.01em 0.1em 4px;">
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col d-sm-none">
+                    <img src="static/images/colour_bar.png" style="width: 100%; box-shadow: 0.01em 0.1em 4px;">
+                </div>
+            </div>
+        </div>
+    </nav>   
+</header>
+
